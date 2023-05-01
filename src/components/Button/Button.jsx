@@ -1,7 +1,7 @@
-function Button({onClickButton}) {
+function Button({text, onClickButton}) {
     return (
         <button onClick={onClickButton}>
-            <span>Texto do Botão</span>
+            <span>{text}</span>
         </button>
     );
 }
